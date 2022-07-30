@@ -40,6 +40,8 @@
             this.btDelete = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbMobile = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -146,10 +148,27 @@
             this.textBox2.Size = new System.Drawing.Size(400, 23);
             this.textBox2.TabIndex = 8;
             // 
+            // tbMobile
+            // 
+            this.tbMobile.Location = new System.Drawing.Point(52, 304);
+            this.tbMobile.Name = "tbMobile";
+            this.tbMobile.Size = new System.Drawing.Size(258, 23);
+            this.tbMobile.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(52, 286);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(125, 15);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Мобильный телефон";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1203, 593);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -157,8 +176,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tbFind);
             this.Controls.Add(this.btAddContact);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.tbMobile);
             this.Controls.Add(this.tbName);
             this.Controls.Add(this.tbNumber);
             this.Controls.Add(this.btSelectAll);
@@ -185,5 +206,7 @@
         private System.Windows.Forms.Button btDelete;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbMobile;
+        private System.Windows.Forms.Label label3;
     }
 }
