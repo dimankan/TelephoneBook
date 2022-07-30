@@ -74,7 +74,13 @@ namespace TelephoneBook
 
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
 
+            textBox1.Text = row.ToString();
+            textBox2.Text = row.Cells["Name"].Value.ToString();
+        }
     }
 
 
